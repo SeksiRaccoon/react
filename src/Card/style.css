@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+
+.card { 
+    padding-top: 20px;
+    width: 470px;
+    padding-left: 40px;
+    
+}
+
+.card-title { 
+    padding: 5px 5px 3px 0px;
+    font-family: 'Secular One';   
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 23px;
+    color: #131111;
+    font-size: 16px;
+    border-top: 1px solid #a3a3a3;
+    width: 70%;
+}
+
+
+.card-content { 
+    padding-top: 10px;
+    border-top: 2px solid #131111;
+    padding-left: 10px;
+    text-align: left;
+}
