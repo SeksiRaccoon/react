@@ -1,6 +1,42 @@
-.warning{ 
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto';
 }
-.hide{ 
-    display: none;
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 16px 7px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover{
+  background-color: green;
+}
+
+
+.tab button.active {
+  color:green;
+  border-bottom: 4px solid green;
+}
+
+
+.tabcontent {
+
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
 }
