@@ -4,7 +4,7 @@ import TabContent from "./TextArea/TabContent"
 import './App.css'
 
 function App() {
-  const tabsContent = [{
+  const tabsContent:{ title: string; content: string; id: number; }[] = [{
     title: 'Tab 1',
     content: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,',
     id: 1
