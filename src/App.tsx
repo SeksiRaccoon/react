@@ -1,6 +1,5 @@
 import React from 'react';
 import Form from './Form/Form'
-import Submit from "./Form/Submit"
 import './App.css'
 
 
