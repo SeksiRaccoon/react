@@ -10,7 +10,7 @@ export default function Form () {
     const data = [email, password]
     function Submit(event:any){ 
         event.preventDefault();
-        console.log(data)
+        console.log(...(data))
     }
     return (
    <form className="form" onSubmit={Submit}>

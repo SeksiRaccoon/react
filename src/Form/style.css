@@ -45,6 +45,8 @@ input{
   color: white;
   background: #6C0016;
   transition: .3s linear;
+  outline: none;
+
 }
 
 .button:hover {
