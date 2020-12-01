@@ -32,6 +32,7 @@ input{
   border-bottom-left-radius: 10px ;
   width:333px;
   height: 44px;
+  outline: none;
 }
 .button {
   width: 333px;
